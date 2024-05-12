@@ -1,0 +1,3 @@
+g++ -std=c++11 -pthread src/main.cpp src/athlete.cpp src/team.cpp -o triathlon
+./triathlon
+rm triathlon
