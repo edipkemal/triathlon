@@ -11,12 +11,12 @@
 #include "../include/team.hpp"
 
 const int totalTeams = 300;
-const int simuleteSecond = 100; // A second in milliseconds
+const int simuleteSecond = 1000; // A second in milliseconds
 
 // Track distances in meters
-float firstPass = 50.0f;
-float secondPass = firstPass + 400.0f;
-float finishLine = secondPass + 100.0f;
+float firstPass = 5000.0f;
+float secondPass = firstPass + 40000.0f;
+float finishLine = secondPass + 10000.0f;
 
 bool showInfo = false;
 // Function to update positions of athletes in a team
